@@ -53,20 +53,20 @@ function Projects() {
                   built-in React and styled with tailwindcss.
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://www.youtube.com/watch?v=NO7_jgzVgbc&ab_channel=TraversyMedia'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
                     Link to the tutorial
-                  </Link>
+                  </a>
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://github.com/TrevorParlee/TrevorPortfolio'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
                     Link to the project on my gitHub
-                  </Link>
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -89,12 +89,12 @@ function Projects() {
                   enjoy 😁
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://www.youtube.com/watch?v=IvJ8Abc6qos&ab_channel=TrevorParlee'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
                     Link to the video
-                  </Link>
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -115,12 +115,12 @@ function Projects() {
                   React. Nothing too final but a look into what I've attempted.
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://www.youtube.com/watch?v=_CuZTd2OkMo&ab_channel=TrevorParlee'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
-                    Link to the tutorial
-                  </Link>
+                    Link to the video
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -149,17 +149,14 @@ function Projects() {
                   React and styled with css and material-ui
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
-                    href='https://hrbytrevor.netlify.app/'
-                    onClick={preventDefault}
-                  >
+                  <a href='https://hrbytrevor.netlify.app/' target='_blank'>
                     Link to the website
-                  </Link>
+                  </a>
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link url='https://github.com/TrevorParlee/HealthResults'>
+                  <a href='https://github.com/TrevorParlee/HealthResults'>
                     Link to the project on my gitHub
-                  </Link>
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -182,12 +179,12 @@ function Projects() {
                   enjoy 😁
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://www.youtube.com/watch?v=IvJ8Abc6qos&ab_channel=TrevorParlee'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
                     Link to the video
-                  </Link>
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -208,12 +205,12 @@ function Projects() {
                   React. Nothing too final but a look into what I've attempted.
                 </Typography>
                 <Typography className={classes.root}>
-                  <Link
+                  <a
                     href='https://www.youtube.com/watch?v=_CuZTd2OkMo&ab_channel=TrevorParlee'
-                    onClick={preventDefault}
+                    target='_blank'
                   >
                     Link to the tutorial
-                  </Link>
+                  </a>
                 </Typography>
               </CardContent>
             </CardActionArea>
