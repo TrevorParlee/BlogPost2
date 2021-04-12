@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
   background-color: #64b5f6;
   height: 120px;
   display: flex;
@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.navBarContainer {
+.navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   max-width: 1500px;
 }
 
-.title {
+.navbar-logo {
   color: #fff;
   justify-self: start;
   margin-left: 10px;
@@ -46,11 +46,11 @@
   margin-right: 2rem;
 }
 
-.navItem {
+.nav-item {
   height: 40px;
 }
 
-.navLinks {
+.nav-links {
   color: #fff;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
   height: 100%;
 }
 
-.navLinks:hover {
+.navlinks:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }

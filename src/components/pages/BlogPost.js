@@ -7,7 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { Autorenew } from '@material-ui/icons';
+import { Autorenew, BlockRounded, FormatBold } from '@material-ui/icons';
 import image from '../../images/blogTop.png';
 import image1 from '../../images/home1.png';
 import image2 from '../../images/homeCode.png';
@@ -26,6 +26,7 @@ import image14 from '../../images/useState1.png';
 import image15 from '../../images/useState2.png';
 import image16 from '../../images/useState3.png';
 import Footer from '../Footer';
+import Video from '../Video';
 
 const useStyles = makeStyles({
   root: {
@@ -53,7 +54,9 @@ function BlogPost() {
         <img src={image} alt='My set up at home' width='100%' />
       </Grid>
       <Grid container direction='row' alignItems='flex-start' justify='center'>
-        <h1 className='aboutTitle'>Blog Post 2</h1>
+        <text className='aboutTitle' style={{ fontSize: '80px', margin: 50 }}>
+          Blog Post 2
+        </text>
       </Grid>
       <Grid container direction='row' alignItems='flex-start' justify='center'>
         <Card className={classes.root}>
@@ -352,6 +355,30 @@ function BlogPost() {
                 gutterBottom
               >
                 NavBar.js Code
+              </Typography>
+
+              <Typography
+                variant='body2'
+                component='p'
+                style={{ margin: 20, fontSize: '20px' }}
+                className='cardText'
+              ></Typography>
+              <br></br>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Grid>
+      <Grid container direction='row' alignItems='flex-start' justify='center'>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <Video embedId='DPlltk5YAKE' width='100%' />
+            <CardContent>
+              <Typography
+                className={classes.title}
+                style={{ margin: 20, fontSize: '20px' }}
+                gutterBottom
+              >
+                BlogPost 2
               </Typography>
 
               <Typography

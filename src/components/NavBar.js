@@ -24,29 +24,29 @@ function NavBar() {
   window.addEventListener('resize', showButton);
   return (
     <>
-      <nav className='navBar'>
-        <div className='navBarContainer'>
-          <Link to='/' className='title' onClick={closeMobileMenu}>
-            Blog Post 2
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            Trevor Parlee Portfolio
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
-            <li className='navItem'>
-              <Link to='/' className='navLinks' onClick={closeMobileMenu}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='navItem'>
-              <Link to='/blog' className='navLinks' onClick={closeMobileMenu}>
+            <li className='nav-item'>
+              <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
                 Blog Post
               </Link>
             </li>
-            <li className='navItem'>
+            <li className='nav-item'>
               <Link
                 to='/projects'
-                className='navLinks'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Projects

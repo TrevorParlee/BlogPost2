@@ -167,49 +167,21 @@ function Projects() {
             <CardActionArea>
               <CardContent>
                 <Typography gutterBottom variant='h5' component='h2'>
-                  1st Video blog post for Emerging trends
+                  2nd Video blog post for Emerging trends
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  Finished on: 2/27/2021 Location: Calgary AB Type: school
+                  Finished on: 4/11/2021 Location: Calgary AB Type: school
                 </Typography>
                 <Typography variant='body2' color='textSecondary' component='p'>
-                  This video shows me working through the first part of the
-                  JavaScript course and then starting the React course. Both are
-                  on Udemy. I tried to have some fun with the video. I hope you
-                  enjoy 😁
+                  This video showsme creating a new portfolio site with my new
+                  blog post. 😁
                 </Typography>
                 <Typography className={classes.root}>
                   <a
-                    href='https://www.youtube.com/watch?v=IvJ8Abc6qos&ab_channel=TrevorParlee'
+                    href='https://www.youtube.com/watch?v=DPlltk5YAKE&ab_channel=TrevorParlee'
                     target='_blank'
                   >
                     Link to the video
-                  </a>
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
-        <Grid item>
-          <Card className={classes.root}>
-            <CardActionArea>
-              <CardContent>
-                <Typography gutterBottom variant='h5' component='h2'>
-                  1st blog post for emerging trends part B
-                </Typography>
-                <Typography variant='body2' color='textSecondary' component='p'>
-                  Finished on: 2/28/2021 Location: Calgary AB Type: school
-                </Typography>
-                <Typography variant='body2' color='textSecondary' component='p'>
-                  This video is mostly just showing the work I've done with
-                  React. Nothing too final but a look into what I've attempted.
-                </Typography>
-                <Typography className={classes.root}>
-                  <a
-                    href='https://www.youtube.com/watch?v=_CuZTd2OkMo&ab_channel=TrevorParlee'
-                    target='_blank'
-                  >
-                    Link to the tutorial
                   </a>
                 </Typography>
               </CardContent>
