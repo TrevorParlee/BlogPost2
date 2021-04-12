@@ -53,7 +53,7 @@ function NavBar() {
               </Link>
             </li>
           </ul>
-          {button && <Button variant='contained'>Login</Button>}
+          {/* {button && <Button variant='contained'>Login</Button>} */}
         </div>
       </nav>
     </>
