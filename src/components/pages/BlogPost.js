@@ -371,7 +371,7 @@ function BlogPost() {
       <Grid container direction='row' alignItems='flex-start' justify='center'>
         <Card className={classes.root}>
           <CardActionArea>
-            <Video embedId='DPlltk5YAKE' width='100%' />
+            <Video embedId='DPlltk5YAKE' />
             <CardContent>
               <Typography
                 className={classes.title}
