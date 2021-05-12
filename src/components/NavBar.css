@@ -23,6 +23,7 @@
   color: #fff;
   justify-self: start;
   margin-left: 10px;
+
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -118,6 +119,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 1rem;
     transform: translate(25%, 50%);
   }
 
