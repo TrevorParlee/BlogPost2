@@ -16,6 +16,7 @@ import Footer from '../Footer';
 
 function Resume() {
   const html_url = 'https://my.indeed.com/p/trevorp-rhps4su';
+  const html_url2 = 'https://www.linkedin.com/in/trevorparlee';
   return (
     <>
       <Grid container direction='row' alignItems='center' justify='center'>
@@ -36,7 +37,7 @@ function Resume() {
               <a href={html_url} className='btn btn-dark my-1'>
                 Visit Indeed Resume
               </a>
-              <a href={html_url} className='btn btn-success my-1'>
+              <a href={html_url2} className='btn btn-success my-1'>
                 Visit LinkedIn Profile
               </a>
             </div>
